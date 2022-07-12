@@ -1,0 +1,25 @@
+ syntax: glob
+
+# QtCreator artefacts
+*.autosave
+*.user.*
+*.user
+bin
+build
+
+# Gedit artefacts
+*~
+
+# Make artefacts
+*.o
+*.ko
+*.symvers
+*.order
+*.cmd
+*.mod.c
+*.mod
+*.o.d
+*.so
+*.a
+
+
