@@ -127,7 +127,7 @@ viterbi_speed_map #(.p_auto_pol(1), .p_speed_size(3), .p_speed_pol0(3'b101), .p_
     .i_reset(1'b0),
     .i_data(outData),
     .i_valid(validData),
-    .i_speed(1),
+    .i_speed(3),
     .o_data(speed_data),
     .o_valid(speed_valid)
 );
